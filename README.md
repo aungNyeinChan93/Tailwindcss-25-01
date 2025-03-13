@@ -56,6 +56,14 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
+## Clone the Repository
+
+To clone the repository, run the following command:
+
+```sh
+git clone https://github.com/your-username/Tailwind-tuto-1.git
+```
+
 ### Install Dependencies
 
 ```sh
@@ -100,4 +108,14 @@ Tailwind CSS is configured in the project with the following files:
 - [`HomeView.vue`](src/views/HomeView.vue)
 - [`LoginView.vue`](src/views/auth/LoginView.vue)
 
-## License
+## NPM Packages
+
+The following packages are used in this project:
+
+- `@headlessui/vue` ^1.7.23
+- `@heroicons/vue` ^2.2.0
+- `@tailwindcss/vite` ^4.0.13
+- `pinia` ^3.0.1
+- `tailwindcss` ^4.0.13
+- `vue` ^3.5.13
+- `vue-router` ^4.5.0
