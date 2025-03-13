@@ -1,11 +1,10 @@
-# Tailwind-tuto-1
+# Tailwind and Vue 3
 
 This project is a Vue 3 application styled with Tailwind CSS. It demonstrates the use of Tailwind CSS for styling Vue components and includes various examples of components and layouts.
 
 ## Project Structure
 
 ```
-.gitignore
 index.html
 jsconfig.json
 package.json

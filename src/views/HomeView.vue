@@ -1,12 +1,14 @@
 <script setup>
+
 import TheHomeIcon from '@/components/base/TheHomeIcon.vue';
 import TheRadioGroup from '@/components/TheRadioGroup.vue';
-import TheSwitch from '@/components/base/TheSwitch.vue';
 import TheContainer from '@/components/base/TheContainer.vue';
+import TheSwitch from '@/components/base/TheSwitch.vue';
+
 </script>
 
 <template>
-  <Master>
+  <Master class=" ">
 
 
     <TheContainer>
@@ -21,6 +23,8 @@ import TheContainer from '@/components/base/TheContainer.vue';
       <TheRadioGroup class="bg-blue-500 !w-[500px] rounded " />
       <TheRadioGroup class="bg-green-500 !w-[500px] rounded " />
     </TheContainer>
+
+    <button class="btn bg-dark"> Click</button>
 
   </Master>
 </template>
