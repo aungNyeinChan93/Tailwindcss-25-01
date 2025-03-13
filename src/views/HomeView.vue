@@ -24,7 +24,15 @@ import TheSwitch from '@/components/base/TheSwitch.vue';
       <TheRadioGroup class="bg-green-500 !w-[500px] rounded " />
     </TheContainer>
 
-    <button class="btn bg-dark"> Click</button>
+    <button class="btn bg-dark mr-3 "> Click</button>
+    <button class="btn bg-[#3f3cbb]"> Click</button>
+    <button class="btn bg-danger ms-3"> Click</button>
 
+    <TheContainer>
+      <h1 class=" red">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quidem quisquam provident.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur impedit sapiente sunt praesentium quasi
+        molestiae recusandae, labore, voluptatem quis odit mollitia fugit deleniti laboriosam quae corrupti minus sint
+        esse quaerat!</p>
+    </TheContainer>
   </Master>
 </template>
